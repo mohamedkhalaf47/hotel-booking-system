@@ -4,7 +4,7 @@ import { assets } from "../assets/assets";
 const Footer = () => {
 	return (
 		<div className="bg-[#F6F9FC] text-gray-500/80 pt-8 px-6 md:px-16 lg:px-24 xl:px-32">
-			<div className="grid grid-cols-1 sm:grid-cols-3 place-items-center gap-12 md:gap-6">
+			<div className="grid grid-cols-1 sm:grid-cols-4 place-items-center gap-5 md:gap-6">
 				<div className="max-w-80">
 					<img
 						src={assets.logo}
@@ -39,51 +39,49 @@ const Footer = () => {
 					</div>
 				</div>
 
-				<div className="w-full flex items-center justify-around">
-					<div>
-						<p className="font_playfair text-lg text-gray-800">QuickStay</p>
-						<ul className="mt-3 flex flex-col gap-2 text-sm">
-							<li>
-								<a href="#">About</a>
-							</li>
-							<li>
-								<a href="#">Careers</a>
-							</li>
-							<li>
-								<a href="#">Press</a>
-							</li>
-							<li>
-								<a href="#">Blog</a>
-							</li>
-							<li>
-								<a href="#">Partners</a>
-							</li>
-						</ul>
-					</div>
-
-					<div>
-						<p className="font_playfair text-lg text-gray-800">SUPPORT</p>
-						<ul className="mt-3 flex flex-col gap-2 text-sm">
-							<li>
-								<a href="#">Help Center</a>
-							</li>
-							<li>
-								<a href="#">Safety Information</a>
-							</li>
-							<li>
-								<a href="#">Cancellation Options</a>
-							</li>
-							<li>
-								<a href="#">Contact Us</a>
-							</li>
-							<li>
-								<a href="#">Accessibility</a>
-							</li>
-						</ul>
-					</div>
+				<div>
+					<p className="font_playfair text-lg text-gray-800">QuickStay</p>
+					<ul className="mt-3 flex flex-col gap-2 text-xs">
+						<li>
+							<a href="#">About</a>
+						</li>
+						<li>
+							<a href="#">Careers</a>
+						</li>
+						<li>
+							<a href="#">Press</a>
+						</li>
+						<li>
+							<a href="#">Blog</a>
+						</li>
+						<li>
+							<a href="#">Partners</a>
+						</li>
+					</ul>
 				</div>
 
-				<div className="max-w-80">
+				<div>
+					<p className="font_playfair text-lg text-gray-800">SUPPORT</p>
+					<ul className="mt-3 flex flex-col gap-2 text-xs">
+						<li>
+							<a href="#">Help Center</a>
+						</li>
+						<li>
+							<a href="#">Safety Information</a>
+						</li>
+						<li>
+							<a href="#">Cancellation Options</a>
+						</li>
+						<li>
+							<a href="#">Contact Us</a>
+						</li>
+						<li>
+							<a href="#">Accessibility</a>
+						</li>
+					</ul>
+				</div>
+
+				<div className=" max-w-48">
 					<p className="font_playfair text-lg text-gray-800">STAY UPDATED</p>
 					<p className="mt-3 text-sm">
 						Subscribe to our newsletter for inspiration and special offers.
@@ -91,7 +89,7 @@ const Footer = () => {
 					<div className="flex items-center mt-4">
 						<input
 							type="text"
-							className="bg-white rounded-l border border-gray-300 h-9 px-3 outline-none"
+							className="bg-white rounded-l border border-gray-300 h-9 px-3 outline-none w-1/4 sm:w-full"
 							placeholder="Your email"
 						/>
 						<button className="flex items-center justify-center bg-black h-9 w-9 aspect-square rounded-r">
@@ -99,7 +97,7 @@ const Footer = () => {
 							<img
 								src={assets.arrowIcon}
 								alt="arrow-icon"
-								className="w-3.5 invert"
+								className="w-3.5 invert cursor-pointer"
 							/>
 						</button>
 					</div>
