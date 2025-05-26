@@ -7,7 +7,7 @@ import Room from "./pages/Room";
 import MyBookings from "./pages/MyBookings";
 import HotelRegistration from "./components/HotelRegistration";
 import Layout from "./pages/hotelOwner/Layout";
-import Dashboard from "./pages/hotelOwner/dashboard";
+import Dashboard from "./pages/hotelOwner/Dashboard";
 import AddRoom from "./pages/hotelOwner/AddRoom";
 import ListRoom from "./pages/hotelOwner/ListRoom";
 
